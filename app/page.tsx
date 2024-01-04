@@ -9,7 +9,7 @@ export default function Home() {
 
       <section className='min-h-screen' >
 
-     <nav className='py-8 mb-12 flex justify-between items-center'>
+     <nav className='py-6 mb-12 flex justify-between items-center'>
       <h1 className='text-lg font'>DevelopedBySikiru</h1>
       <ul className='flex items-center'>
         <li className='cursor-pointer text-2xl mr-5'><BsFillMoonStarsFill/></li>
@@ -21,7 +21,7 @@ export default function Home() {
       <div className='text-center p-10'>
         <h2 className='text-5xl py-2 text-teal-400 font-medium'>Sikiru Momodu</h2>
         <h3 className='text-2xl py-2'>Developer and Designer</h3>
-        <p className='text-md py-5 leading-8 text-gray-800'>If you are reading this that means you are inerested in my work hit me up with you designs amd app ideas, let's get hacking</p>
+        <p className='text-md py-5 leading-8 text-gray-800'>If you are reading this that means you are interested in my work hit me up with you designs and app ideas, let's get hacking✌🏼</p>
       </div>
 
       <div className='text-5xl flex justify-center gap-8 text-gray-700'>
@@ -38,7 +38,20 @@ export default function Home() {
       </section>
 
       <section>
-        
+        <div>
+          <h3 className='text-3xl py-5 font-medium'>Services I Offer</h3>
+          <p className='text-md py-2 leading-8 text-gray-800'>Since the begining of my journey as a freelance designer and developer i have done work for <span className='text-teal-500'> agencies </span> 
+           consulted for <span className='text-teal-500'>startups</span> and colaborated with talented people to create digital products for both business and consumer use</p>
+
+          <p className='text-md py-2 leading-8 text-gray-800'>I offer from a wide range of services including programming and teaching </p>
+
+        </div>
+
+        <div>
+          <div>
+
+          </div>
+        </div>
       </section>
 
     </main>
