@@ -60,9 +60,9 @@ const[darkMode, setDarkMode] = useState(false);
           <AiFillYoutube/>
       </div>
         <div className='flex justify-center'>
-        <div className='relative bg-gradient-to-r from-teal-500 to-cyan-400 rounded-full w-80 h-80 mx-auto mt-20 overflow-hidden md:h-96 md:w-96'>
+        <div className='relative bg-gradient-to-r from-teal-500 to-cyan-400 rounded-full w-80 h-80 mx-auto mt-20 overflow-hidden md:h-96 md:w-96 py-10'>
         
-        <Image src={sik} alt='sikiru' layout='fill' objectFit='cover' />
+        <Image src={sik} alt='sikiru' layout='fill' objectFit='cover'/>
 
       </div>
         </div>
@@ -71,11 +71,11 @@ const[darkMode, setDarkMode] = useState(false);
 
       <section>
         <div>
-          <h3 className='text-3xl py-5 font-medium'>Services I Offer</h3>
+          <h3 className='text-3xl py-1 mt-10 font-medium'>Services I Offer</h3>
           <p className='text-md py-2 leading-8 text-gray-800'>Since the begining of my journey as a freelance designer and developer i have done work for <span className='text-teal-500'> agencies </span> 
            consulted for <span className='text-teal-500'>startups</span> and colaborated with talented people to create digital products for both business and consumer use</p>
 
-          <p className='text-md py-2 leading-8 text-gray-800'>I offer from a wide range of services including programming and teaching </p>
+          <p className='text-md py-2 mb-10 leading-8 text-gray-800'>I offer from a wide range of services including programming and teaching </p>
 
         </div>
 
@@ -118,7 +118,7 @@ const[darkMode, setDarkMode] = useState(false);
 
       <section>
         <div>
-          <h3 className='py-1 text-3xl font-medium'>Portofolio</h3>
+          <h3 className='py-1 mt-10 text-3xl font-medium'>Portofolio</h3>
 
           <p className='text-md py-2 leading-8 text-gray-800'>Since the begining of my journey as a freelance designer and developer i have done work for <span className='text-teal-500'> agencies </span> 
            consulted for <span className='text-teal-500'>startups</span> and colaborated with talented people to create digital products for both business and consumer use</p>
