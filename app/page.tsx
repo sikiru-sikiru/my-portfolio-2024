@@ -35,14 +35,14 @@ const[darkMode, setDarkMode] = useState(false);
       </head>
           
 
-    <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-black'>
+    <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
 
       <section className='min-h-screen' >
 
      <nav className='py-6 mb-12 flex justify-between items-center'>
-      <h1 className='text-lg font dark:text-white'>DevelopedBySikiru</h1>
+      <h1 className='text-lg font dark:text-white font-semibold'>DevelopedBySikiru</h1>
       <ul className='flex items-center'>
-        <li className='cursor-pointer text-2xl mr-5 dark: text-white' onClick={() => setDarkMode (!darkMode)}><BsFillMoonStarsFill/></li>
+        <li className='cursor-pointer text-2xl mr-5 dark:text-white' onClick={() => setDarkMode (!darkMode)}><BsFillMoonStarsFill/></li>
         <li className='bg-gradient-to-r from-cyan-500 to-teal-500 rounded-md px-4 py-2'><a className=''  href="">Resume</a></li>
       </ul>
 
@@ -118,7 +118,7 @@ const[darkMode, setDarkMode] = useState(false);
 
       <section>
         <div>
-          <h3 className='py-1 mt-10 text-3xl font-medium'>Portofolio</h3>
+          <h3 className='py-1 mt-10 text-3xl font-medium dark:text-white'>Portofolio</h3>
 
           <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the begining of my journey as a freelance designer and developer i have done work for <span className='text-teal-500'> agencies </span> 
            consulted for <span className='text-teal-500'>startups</span> and colaborated with talented people to create digital products for both business and consumer use</p>
