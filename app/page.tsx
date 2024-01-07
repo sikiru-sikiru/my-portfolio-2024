@@ -35,14 +35,14 @@ const[darkMode, setDarkMode] = useState(false);
       </head>
           
 
-    <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-400'>
+    <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-black'>
 
       <section className='min-h-screen' >
 
      <nav className='py-6 mb-12 flex justify-between items-center'>
-      <h1 className='text-lg font'>DevelopedBySikiru</h1>
+      <h1 className='text-lg font dark:text-white'>DevelopedBySikiru</h1>
       <ul className='flex items-center'>
-        <li className='cursor-pointer text-2xl mr-5' onClick={() => setDarkMode (!darkMode)}><BsFillMoonStarsFill/></li>
+        <li className='cursor-pointer text-2xl mr-5 dark: text-white' onClick={() => setDarkMode (!darkMode)}><BsFillMoonStarsFill/></li>
         <li className='bg-gradient-to-r from-cyan-500 to-teal-500 rounded-md px-4 py-2'><a className=''  href="">Resume</a></li>
       </ul>
 
@@ -50,11 +50,11 @@ const[darkMode, setDarkMode] = useState(false);
 
       <div className='text-center p-10'>
         <h2 className='text-5xl py-2 text-teal-400 font-medium md:text-6xl'>Sikiru Momodu</h2>
-        <h3 className='text-2xl py-2 md:text-3xl' >Developer and Designer</h3>
-        <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>If you are reading this that means you are interested in my work hit me up with you designs and app ideas, let's get hacking✌🏼</p>
+        <h3 className='text-2xl py-2 md:text-3xl dark:text-white' >Developer and Designer</h3>
+        <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>If you are reading this that means you are interested in my work hit me up with you designs and app ideas, let's get hacking✌🏼</p>
       </div>
 
-      <div className='text-5xl flex justify-center gap-8 text-gray-700'>
+      <div className='text-5xl flex justify-center gap-8 text-gray-700 dark:text-white'>
           <AiFillTwitterCircle/>
           <AiFillLinkedin/>
           <AiFillYoutube/>
@@ -71,16 +71,16 @@ const[darkMode, setDarkMode] = useState(false);
 
       <section>
         <div>
-          <h3 className='text-3xl py-1 mt-10 font-medium'>Services I Offer</h3>
-          <p className='text-md py-2 leading-8 text-gray-800'>Since the begining of my journey as a freelance designer and developer i have done work for <span className='text-teal-500'> agencies </span> 
+          <h3 className='text-3xl py-1 mt-10 font-medium dark:text-white'>Services I Offer</h3>
+          <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the begining of my journey as a freelance designer and developer i have done work for <span className='text-teal-500'> agencies </span> 
            consulted for <span className='text-teal-500'>startups</span> and colaborated with talented people to create digital products for both business and consumer use</p>
 
-          <p className='text-md py-2 mb-10 leading-8 text-gray-800'>I offer from a wide range of services including programming and teaching </p>
+          <p className='text-md py-2 mb-10 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services including programming and teaching </p>
 
         </div>
 
         <div className='lg:flex gap-10'>
-          <div className='text-center shadow-lg p-10 rounded-xl my-10' >
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 dark: bg-white' >
             <div className='flex justify-center'>
             <Image src={gallery} alt='3d gallery image' width={100} height={100} className='flex justify-center'/>
             </div>
@@ -91,7 +91,7 @@ const[darkMode, setDarkMode] = useState(false);
              <p className='text-gray-800 py-1'>Figma</p>
           </div>
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10' >
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white' >
             <div className='flex justify-center'>
             <Image src={code} alt='3d gallery image' width={100} height={100} className='flex justify-center'/>
             </div>
@@ -102,7 +102,7 @@ const[darkMode, setDarkMode] = useState(false);
              <p className='text-gray-800 py-1'>Figma</p>
           </div>
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10' >
+          <div className='text-center shadow-lg p-10 rounded-xl my-10 dark: bg-white' >
             <div className='flex justify-center'>
             <Image src={thumb} alt='3d gallery image' width={100} height={100} className='flex justify-center'/>
             </div>
@@ -120,14 +120,15 @@ const[darkMode, setDarkMode] = useState(false);
         <div>
           <h3 className='py-1 mt-10 text-3xl font-medium'>Portofolio</h3>
 
-          <p className='text-md py-2 leading-8 text-gray-800'>Since the begining of my journey as a freelance designer and developer i have done work for <span className='text-teal-500'> agencies </span> 
+          <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the begining of my journey as a freelance designer and developer i have done work for <span className='text-teal-500'> agencies </span> 
            consulted for <span className='text-teal-500'>startups</span> and colaborated with talented people to create digital products for both business and consumer use</p>
 
-          <p className='text-md py-2 leading-8 text-gray-800'>I offer from a wide range of services including programming and teaching </p>
+          <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services including programming and teaching </p>
 
         </div>
 
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+          
           <div className='basis-1/3 flex-1'>
               <Image src={img1} alt='web designproject' className='rounded-lg object-cover' width={100} height={100} layout='responsive' />
           </div>
@@ -140,6 +141,7 @@ const[darkMode, setDarkMode] = useState(false);
           <div className='basis-1/3 flex-1'>
               <Image src={img4} alt='web designproject' className='rounded-lg object-cover' width={100} height={100} layout='responsive' />
           </div>
+
         </div>
       </section>
 
